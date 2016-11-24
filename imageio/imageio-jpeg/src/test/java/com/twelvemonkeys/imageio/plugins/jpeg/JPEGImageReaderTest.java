@@ -101,7 +101,8 @@ public class JPEGImageReaderTest extends ImageReaderAbstractTest<JPEGImageReader
                 new TestData(getClassLoaderResource("/jpeg-lossless/16_ls.jpg"), new Dimension(800, 535)),  // Lossless gray, 16 bit
                 new TestData(getClassLoaderResource("/jpeg-lossless/24_ls.jpg"), new Dimension(800, 535)), // Lossless RGB, 8 bit per component (24 bit)
                 new TestData(getClassLoaderResource("/jpeg-lossless/testimg_rgb.jpg"), new Dimension(227, 149)), // Lossless RGB, 8 bit per component (24 bit)
-                new TestData(getClassLoaderResource("/jpeg-lossless/testimg_gray.jpg"), new Dimension(512, 512)) // Lossless gray, 16 bit
+                new TestData(getClassLoaderResource("/jpeg-lossless/testimg_gray.jpg"), new Dimension(512, 512)), // Lossless gray, 16 bit
+                new TestData(getClassLoaderResource("/jpeg-lossless/fld_2_14.jpg"), new Dimension(1728, 1416)) // Lossless gray 1000dpi, 8 bits (ac huf tab)
         );
 
         // More test data in specific tests below
